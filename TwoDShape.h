@@ -11,9 +11,10 @@ class TwoDShape {
     protected:
         double width;
         double height;
-        
+
     public:
         TwoDShape(double width, double height);
+        virtual ~TwoDShape();
         double getWidth();
         double getHeight();
         virtual double getArea() = 0; // pure virtual function
